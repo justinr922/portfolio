@@ -55,6 +55,26 @@ export const CONFIG = {
       inProgress: false,
       hideRepo: false,
     },
+    {
+      title: "Intelligent Cashflow Forecasting",
+      blurb:
+        "A custom project for a client to forecast capital project cashflow based on historical data and machine learning.",
+      tags: ["Python", "Primavera Unifier", "Machine Learning", "Data Engineering"],
+      url: null,
+      repo: null,
+      inProgress: false,
+      hideRepo: true,
+    },
+    {
+      title: "Smartsheet Reporting Integrations",
+      blurb:
+        "A custom project for a client integrate smartsheet data into their reporting portfolio",
+      tags: ["Integrations", "SSRS", "Data Engineering"],
+      url: null,
+      repo: null,
+      inProgress: false,
+      hideRepo: true,
+    },
   ],
   services: [
     {
