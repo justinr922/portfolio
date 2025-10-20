@@ -1,5 +1,9 @@
 import { CONFIG } from "../config";
 
+/**
+ * Footer component - displays copyright and build info
+ * Appears at the bottom of every page
+ */
 export function Footer() {
   const year = new Date().getFullYear();
 

@@ -1,5 +1,13 @@
 import { useEffect, useState } from "react";
 
+/**
+ * Custom hook to fetch recent GitHub commits
+ * Fetches repositories for a user, then fetches recent commits from each repo
+ *
+ * @param {string} username - GitHub username
+ * @param {number} maxItems - Maximum number of commits to return (default: 8)
+ * @returns {Object} Object with items (commits), loading state, and error
+ */
 export const useGitHubActivity = (username, maxItems = 8) => {
   const [items, setItems] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -15,7 +23,6 @@ export const useGitHubActivity = (username, maxItems = 8) => {
 
     async function run() {
       try {
-        // First, get the list of repositories for the user
         const reposRes = await fetch(
           `https://api.github.com/users/${username}/repos?sort=updated&per_page=10`
         );
@@ -23,10 +30,8 @@ export const useGitHubActivity = (username, maxItems = 8) => {
         if (!reposRes.ok) throw new Error(`GitHub API responded ${reposRes.status}`);
         const repos = await reposRes.json();
 
-        // Check if component is still mounted before proceeding
         if (!isMounted) return;
 
-        // Fetch recent commits from each repository
         const allCommits = [];
         for (const repo of repos) {
           if (!isMounted) return;
@@ -57,7 +62,7 @@ export const useGitHubActivity = (username, maxItems = 8) => {
               }
             }
           } catch (err) {
-            // Silently ignore errors
+            // Silently ignore individual repo errors
           }
         }
 

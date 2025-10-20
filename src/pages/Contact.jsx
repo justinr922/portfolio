@@ -2,6 +2,10 @@ import { CONFIG } from "../config";
 import { Card } from "../components/Card";
 import { SectionTitle } from "../components/SectionTitle";
 
+/**
+ * Contact page - displays contact information and contact form
+ * Form submissions are handled by Formspree
+ */
 export function Contact() {
   return (
     <main className="max-w-6xl mx-auto px-6">

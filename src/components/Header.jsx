@@ -2,6 +2,11 @@ import { Link } from "react-router-dom";
 import { CONFIG } from "../config";
 import { useState } from "react";
 
+/**
+ * Header component - sticky navigation bar with mobile hamburger menu
+ * Displays site name and navigation links
+ * Mobile menu toggles on small screens
+ */
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
 

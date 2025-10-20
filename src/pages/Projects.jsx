@@ -4,6 +4,10 @@ import { Card } from "../components/Card";
 import { Tag } from "../components/Tag";
 import { SectionTitle } from "../components/SectionTitle";
 
+/**
+ * Projects page - portfolio of completed and in-progress projects
+ * Displays project cards with descriptions, technologies, and links
+ */
 export function Projects() {
   return (
     <main className="max-w-6xl mx-auto px-6">

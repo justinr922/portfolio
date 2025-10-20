@@ -3,10 +3,13 @@ import { CONFIG } from "../config";
 import { Card } from "../components/Card";
 import { SectionTitle } from "../components/SectionTitle";
 
+/**
+ * Home page - landing page with hero section, profile image, and tech stack
+ * Displays main value proposition and engagement model
+ */
 export function Home() {
   return (
     <main className="max-w-6xl mx-auto px-6">
-      {/* Hero */}
       <section id="top" className="py-16 sm:py-24">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>

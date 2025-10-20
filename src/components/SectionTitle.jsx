@@ -1,3 +1,10 @@
+/**
+ * SectionTitle component - displays section headers with optional kicker and right-aligned content
+ *
+ * @param {string} kicker - Small uppercase label above the title
+ * @param {string} title - Main section heading
+ * @param {React.ReactNode} right - Optional content to display on the right side
+ */
 export function SectionTitle({ kicker, title, right }) {
   return (
     <div className="flex items-end justify-between gap-4">

@@ -1,4 +1,6 @@
-// ======= Configuration =======
+/**
+ * Portfolio configuration
+ */
 export const CONFIG = {
   name: "Justin Ryan",
   role: "Analytics & Software Consultant",

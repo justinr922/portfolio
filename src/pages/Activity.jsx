@@ -3,6 +3,10 @@ import { Card } from "../components/Card";
 import { SectionTitle } from "../components/SectionTitle";
 import { useGitHubActivity } from "../hooks/useGitHubActivity";
 
+/**
+ * Activity page - displays recent GitHub commits
+ * Shows public activity from the user's repositories
+ */
 export function Activity() {
   const { items: commits, loading: ghLoading, error: ghError } = useGitHubActivity(
     CONFIG.github.username,

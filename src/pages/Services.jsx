@@ -2,6 +2,10 @@ import { CONFIG } from "../config";
 import { Card } from "../components/Card";
 import { SectionTitle } from "../components/SectionTitle";
 
+/**
+ * Services page - displays available services and expertise areas
+ * Shows service cards with icons and descriptions
+ */
 export function Services() {
   return (
     <main className="max-w-6xl mx-auto px-6">
