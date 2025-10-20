@@ -30,13 +30,15 @@ export function Home() {
             </div>
           </div>
           <div className="flex flex-col gap-6">
-            {/* Profile Image */}
-            <div className="rounded-lg overflow-hidden bg-gray-100 aspect-square md:aspect-auto md:h-96">
-              <img
-                src="/profile.jpg"
-                alt={CONFIG.name}
-                className="w-full h-full object-cover"
-              />
+            {/* Profile Image with Frame */}
+            <div className="p-4 rounded-lg border border-gray-200 bg-gray-50 shadow-lg hover:shadow-2xl transition-shadow hover:border-gray-300">
+              <div className="rounded-lg overflow-hidden bg-gray-100 aspect-square md:aspect-auto md:h-96">
+                <img
+                  src="/profile.jpg"
+                  alt={CONFIG.name}
+                  className="w-full h-full object-cover"
+                />
+              </div>
             </div>
             {/* Info Card */}
             <Card>
