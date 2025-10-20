@@ -1,13 +1,13 @@
 // ======= Configuration =======
 export const CONFIG = {
   name: "Justin Ryan",
-  role: "Analytics & Web Development Consultant",
+  role: "Analytics & Software Consultant",
   tagline: "I help teams reduce overhead and eliminate redundant work.",
   location: "NYC & Remote",
   email: "jcryansolutions@gmail.com",
   github: {
     username: "justinr922", 
-    maxItems: 8,
+    maxItems: 3,
   },
   socials: [
     { label: "GitHub", href: "https://github.com/justinr922" },
