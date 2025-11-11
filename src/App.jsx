@@ -6,6 +6,7 @@ import { Services } from "./pages/Services";
 import { Projects } from "./pages/Projects";
 import { Activity } from "./pages/Activity";
 import { Contact } from "./pages/Contact";
+import { Education } from "./pages/Education";
 
 /**
  * Main portfolio application component
@@ -20,6 +21,7 @@ export default function PortfolioApp() {
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/education" element={<Education />} />
           <Route path="/activity" element={<Activity />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

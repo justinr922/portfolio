@@ -13,6 +13,7 @@ export function Header() {
   const navLinks = [
     { label: "Services", path: "/services" },
     { label: "Projects", path: "/projects" },
+    { label: "Education", path: "/education" },
     { label: "Activity", path: "/activity" },
     { label: "Contact", path: "/contact" },
   ];

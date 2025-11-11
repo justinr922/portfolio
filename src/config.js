@@ -8,7 +8,7 @@ export const CONFIG = {
   location: "NYC & Remote",
   email: "jcryansolutions@gmail.com",
   github: {
-    username: "justinr922", 
+    username: "justinr922",
     maxItems: 3,
   },
   socials: [
@@ -123,6 +123,11 @@ export const CONFIG = {
       icon: "🧩",
       title: "Consulting",
       desc: "Fractional product/BI leadership, discovery, roadmaps, RFP support.",
+    },
+    {
+      icon: "🎓",
+      title: "Educational Services & Workshops",
+      desc: "Navigating the AI landscape, responsible adoption, student guidance.",
     },
   ],
 };

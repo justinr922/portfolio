@@ -1,6 +1,7 @@
 import { CONFIG } from "../config";
 import { Card } from "../components/Card";
 import { SectionTitle } from "../components/SectionTitle";
+import { Link } from "react-router-dom";
 
 /**
  * Services page - displays available services and expertise areas
