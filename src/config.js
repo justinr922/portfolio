@@ -23,11 +23,11 @@ export const CONFIG = {
         "Improve your ROI with data-backed insights, benchmark assets, and monitor team performance.",
       tags: ["Facilities Management", "Business Intelligence", "Power BI"],
       url: "https://www.fsiservices.com/cms-analytics",
-      repo: "null",
+      repo: null,
       inProgress: false,
       hideRepo: true,
     },
-    
+
     {
       title: "Wasted Space - Improving Garage Utilization and Revenue",
       blurb:
@@ -39,7 +39,7 @@ export const CONFIG = {
       hideRepo: true,
     },
     {
-      title: "DromIQ",
+      title: "DromIQ (Active Development)",
       blurb:
         "The version 2 of my Strava Analytics. Updates for better layout, better API handling, and a more modular build.",
       tags: ["React", "Node", "Tailwind", "Strava API"],
@@ -49,7 +49,7 @@ export const CONFIG = {
       hideRepo: false,
     },
     {
-      title: "Strava Activity Analytics",
+      title: "Strava Activity Analytics (Obsolete)",
       blurb:
         "React + Node app for visualizing pace, HR, elevation, and other metrics.",
       tags: ["React", "Node", "Tailwind", "Strava API"],
@@ -73,8 +73,8 @@ export const CONFIG = {
       blurb:
         "Web tool for consultants/ISVs to manage tenants, workspaces, semantic models, and reports.",
       tags: ["Power BI", "Azure AD", "REST APIs", "SaaS"],
-      url: "null",
-      repo: "null",
+      url: null,
+      repo: null,
       inProgress: true,
       hideRepo: true,
     },
@@ -104,7 +104,7 @@ export const CONFIG = {
         "An old learning project to learn the basics of DOM interaction and Github Pages",
       tags: ["Web Dev", "DOM Manipulation", "Javascript", "Learning"],
       url: "https://justinr922.github.io/etch-a-sketch/",
-      repo: "https://github.com/justinr922/etch-a-sketch",
+      repo: "justinr922/etch-a-sketch",
       inProgress: false,
       hideRepo: false,
     },
