@@ -18,11 +18,12 @@ export const CONFIG = {
   ],
   projects: [
     {
-      title: "CMS Analytics (In Partnership with FSI and Consertus)",
+      title: "CMS Analytics (In Partnership with FSI and Consertus) (Ongoing)",
       blurb:
         "Improve your ROI with data-backed insights, benchmark assets, and monitor team performance.",
       tags: ["Facilities Management", "Business Intelligence", "Power BI"],
       url: "https://www.fsiservices.com/cms-analytics",
+      time: "Ongoing",
       repo: null,
       inProgress: false,
       hideRepo: true,
@@ -33,6 +34,7 @@ export const CONFIG = {
       blurb:
         "A custom project for a client to understand and optimize usage of their garage portfolio, leading to $100k+ in additional yearly revenue.",
       tags: ["Integrations", "Business Intelligence", "Data Engineering", "Process Optimization"],
+      time: "2025-Q1",
       url: null,
       repo: null,
       inProgress: false,
@@ -43,6 +45,7 @@ export const CONFIG = {
       blurb:
         "The version 2 of my Strava Analytics. Updates for better layout, better API handling, and a more modular build.",
       tags: ["React", "Node", "Tailwind", "Strava API"],
+      time: "Ongoing",
       url: "https://dromiq.justin-ryan.io",
       repo: "justinr922/dromIQ",
       inProgress: false,
@@ -53,6 +56,7 @@ export const CONFIG = {
       blurb:
         "React + Node app for visualizing pace, HR, elevation, and other metrics.",
       tags: ["React", "Node", "Tailwind", "Strava API"],
+      time: "2025-Q3",
       url: "https://strava-dashboard-v1.onrender.com/",
       repo: "justinr922/strava-dashboard",
       inProgress: false,
@@ -63,6 +67,7 @@ export const CONFIG = {
       blurb:
         "A custom project for a client to understand and optimize usage of their rental portfolio, allowing for better planning and decision making in an ever changing post pandemic real estate market.",
       tags: ["Integrations", "Business Intelligence", "Data Engineering", "Process Optimization"],
+      time: "2025-Q2",
       url: null,
       repo: null,
       inProgress: false,
@@ -73,6 +78,7 @@ export const CONFIG = {
       blurb:
         "Web tool for consultants/ISVs to manage tenants, workspaces, semantic models, and reports.",
       tags: ["Power BI", "Azure AD", "REST APIs", "SaaS"],
+      time: "2025-Q3",
       url: null,
       repo: null,
       inProgress: true,
@@ -83,6 +89,7 @@ export const CONFIG = {
       blurb:
         "A custom project for a client to forecast capital project cashflow based on historical data and machine learning.",
       tags: ["Python", "Primavera Unifier", "Machine Learning", "Data Engineering"],
+      time: "2022-Q4",
       url: null,
       repo: null,
       inProgress: false,
@@ -93,6 +100,7 @@ export const CONFIG = {
       blurb:
         "A custom project for a client integrate smartsheet data into their reporting portfolio",
       tags: ["Integrations", "SSRS", "Data Engineering"],
+      time: "2023-Q1",
       url: null,
       repo: null,
       inProgress: false,
@@ -104,6 +112,7 @@ export const CONFIG = {
         "An old learning project to learn the basics of DOM interaction and Github Pages",
       tags: ["Web Dev", "DOM Manipulation", "Javascript", "Learning"],
       url: "https://justinr922.github.io/etch-a-sketch/",
+      time: "2020",
       repo: "justinr922/etch-a-sketch",
       inProgress: false,
       hideRepo: false,

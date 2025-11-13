@@ -22,12 +22,15 @@ export function Projects() {
             <Card key={p.title}>
               <div className="flex items-start justify-between gap-4">
                 <div className="flex-1">
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-2 flex-wrap">
                     <div className="font-semibold text-lg text-gray-900">{p.title}</div>
                     {p.inProgress && (
                       <span className="text-xs px-2 py-1 rounded-full bg-gray-200 text-gray-700 font-medium">In Progress</span>
                     )}
                   </div>
+                  {p.time && (
+                    <div className="text-xs text-gray-500 mt-1">{p.time}</div>
+                  )}
                   <p className="mt-2 text-sm text-gray-600">{p.blurb}</p>
                 </div>
                 {!p.inProgress && (
