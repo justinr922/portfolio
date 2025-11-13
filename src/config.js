@@ -28,17 +28,16 @@ export const CONFIG = {
       inProgress: false,
       hideRepo: true,
     },
-
     {
-      title: "Wasted Space - Improving Garage Utilization and Revenue",
+      title: "Portfolio Website",
       blurb:
-        "A custom project for a client to understand and optimize usage of their garage portfolio, leading to $100k+ in additional yearly revenue.",
-      tags: ["Integrations", "Business Intelligence", "Data Engineering", "Process Optimization"],
-      time: "2025-Q1",
-      url: null,
-      repo: null,
+        "The website you're on right now. Features dynamic routing, GitHub activity integration, email capture, and visitor analytics.",
+      tags: ["React", "Vite", "Tailwind", "React Router", "Formspree", "Google Analytics"],
+      time: "2025-Present",
+      url: "https://justin-ryan.io",
+      repo: "justinr922/portfolio",
       inProgress: false,
-      hideRepo: true,
+      hideRepo: false,
     },
     {
       title: "DromIQ (Active Development)",
@@ -50,6 +49,17 @@ export const CONFIG = {
       repo: "justinr922/dromIQ",
       inProgress: false,
       hideRepo: false,
+    },
+    {
+      title: "Wasted Space - Improving Garage Utilization and Revenue",
+      blurb:
+        "A custom project for a client to understand and optimize usage of their garage portfolio, leading to $100k+ in additional yearly revenue.",
+      tags: ["Integrations", "Business Intelligence", "Data Engineering", "Process Optimization"],
+      time: "2025-Q1",
+      url: null,
+      repo: null,
+      inProgress: false,
+      hideRepo: true,
     },
     {
       title: "Strava Activity Analytics (Obsolete)",
