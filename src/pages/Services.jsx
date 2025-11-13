@@ -1,7 +1,6 @@
 import { CONFIG } from "../config";
 import { Card } from "../components/Card";
 import { SectionTitle } from "../components/SectionTitle";
-import { Link } from "react-router-dom";
 
 /**
  * Services page - displays available services and expertise areas
@@ -15,7 +14,13 @@ export function Services() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
           {CONFIG.services.map((s) => (
             <Card key={s.title}>
-              <div className="text-3xl mb-3">{s.icon}</div>
+              <div className="mb-3">
+                <img
+                  src={s.icon}
+                  alt={`${s.title} icon`}
+                  className="w-12 h-12"
+                />
+              </div>
               <div className="font-semibold text-gray-900 mb-2">{s.title}</div>
               <p className="text-sm text-gray-600">{s.desc}</p>
             </Card>

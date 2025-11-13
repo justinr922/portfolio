@@ -56,7 +56,13 @@ export function PdfDownloadForm({ pdfUrl, pdfTitle, formspreeId }) {
   if (submitted) {
     return (
       <div className="text-center py-8">
-        <div className="text-2xl mb-2">✓</div>
+        <div className="flex justify-center mb-2">
+          <img
+            src="/icons/checkmark.svg"
+            alt="Success"
+            className="w-8 h-8"
+          />
+        </div>
         <div className="font-semibold text-gray-900 mb-2">Download Started!</div>
         <p className="text-sm text-gray-600">
           Your download should begin automatically. If not,{" "}

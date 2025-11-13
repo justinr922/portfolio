@@ -111,32 +111,32 @@ export const CONFIG = {
   ],
   services: [
     {
-      icon: "📊",
+      icon: "/icons/business-intelligence.svg",
       title: "Business Intelligence",
       desc: "Power BI, data modeling, metric design, semantic models, governance.",
     },
     {
-      icon: "🧱",
+      icon: "/icons/data-engineering.svg",
       title: "Data Engineering",
       desc: "ETL/ELT with dbt & Airflow, pipeline cost tuning, warehouse ops.",
     },
     {
-      icon: "🕸️",
+      icon: "/icons/web-development.svg",
       title: "Web Development",
       desc: "React/Node apps, Tailwind UIs, API design, authentication flows.",
     },
     {
-      icon: "📈",
+      icon: "/icons/analytics.svg",
       title: "Analytics Instrumentation",
       desc: "Google Analytics 4 & Consent Mode, event schemas, dashboards.",
     },
     {
-      icon: "🧩",
+      icon: "/icons/consulting.svg",
       title: "Consulting",
       desc: "Fractional product/BI leadership, discovery, roadmaps, RFP support.",
     },
     {
-      icon: "🎓",
+      icon: "/icons/education.svg",
       title: "Educational Services & Workshops",
       desc: "Navigating the AI landscape, responsible adoption, student guidance.",
     },
