@@ -16,7 +16,7 @@ export function Activity() {
   return (
     <main className="max-w-6xl mx-auto px-6">
       <section className="py-16 sm:py-24">
-        <SectionTitle kicker="Signal of ongoing work" title="Recent GitHub commits" />
+        <SectionTitle kicker="Public ongoing activity" title="Recent Public GitHub commits" />
         <Card className="mt-10">
           {ghLoading && <div className="text-sm text-gray-500">Loading public activity…</div>}
           {ghError && (

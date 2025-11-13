@@ -27,6 +27,7 @@ export const CONFIG = {
       inProgress: false,
       hideRepo: true,
     },
+    
     {
       title: "Wasted Space - Improving Garage Utilization and Revenue",
       blurb:
@@ -36,6 +37,16 @@ export const CONFIG = {
       repo: null,
       inProgress: false,
       hideRepo: true,
+    },
+    {
+      title: "DromIQ",
+      blurb:
+        "The version 2 of my Strava Analytics. Updates for better layout, better API handling, and a more modular build.",
+      tags: ["React", "Node", "Tailwind", "Strava API"],
+      url: "https://dromiq.justin-ryan.io",
+      repo: "justinr922/dromIQ",
+      inProgress: false,
+      hideRepo: false,
     },
     {
       title: "Strava Activity Analytics",
