@@ -1,6 +1,13 @@
 /**
  * Portfolio configuration
  */
+import businessIntelligenceIcon from "./assets/business-intelligence-blue.svg";
+import dataEngineeringIcon from "./assets/data-engineering-blue.svg";
+import webDevelopmentIcon from "./assets/web-development-blue.svg";
+import analyticsIcon from "./assets/analytics-blue.svg";
+import consultingIcon from "./assets/consulting-blue.svg";
+import educationIcon from "./assets/education-blue.svg";
+
 export const CONFIG = {
   name: "Justin Ryan",
   role: "Analytics & Software Consultant",
@@ -130,32 +137,32 @@ export const CONFIG = {
   ],
   services: [
     {
-      icon: "📊",
+      icon: businessIntelligenceIcon,
       title: "Business Intelligence",
       desc: "Power BI, data modeling, metric design, semantic models, governance.",
     },
     {
-      icon: "🧱",
+      icon: dataEngineeringIcon,
       title: "Data Engineering",
       desc: "ETL/ELT with dbt & Airflow, pipeline cost tuning, warehouse ops.",
     },
     {
-      icon: "🕸️",
+      icon: webDevelopmentIcon,
       title: "Web Development",
       desc: "React/Node apps, Tailwind UIs, API design, authentication flows.",
     },
     {
-      icon: "📈",
+      icon: analyticsIcon,
       title: "Analytics Instrumentation",
       desc: "Google Analytics 4 & Consent Mode, event schemas, dashboards.",
     },
     {
-      icon: "🧩",
+      icon: consultingIcon,
       title: "Consulting",
       desc: "Fractional product/BI leadership, discovery, roadmaps, RFP support.",
     },
     {
-      icon: "🎓",
+      icon: educationIcon,
       title: "Educational Services & Workshops",
       desc: "Navigating the AI landscape, responsible adoption, student guidance.",
     },
